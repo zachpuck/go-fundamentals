@@ -1,3 +1,10 @@
+// if
+// accepts boolean expressions
+// variables declared as part of the if statement are scoped to it
+// supports multiple else if statements
+// supports a single else statment (must be last)
+// first match in lexical order gets executed
+// supports nesting
 package main
 
 import (
@@ -18,8 +25,5 @@ func main() {
 	} else {
 		fmt.Println("\nBoth courses are either" +
 			"the same or something weird is going on")
-	}
-
-	// switch
-	
+	} 
 }
