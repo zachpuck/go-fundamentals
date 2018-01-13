@@ -1,3 +1,4 @@
+// https://blog.golang.org/slices
 package main
 
 import (

@@ -6,17 +6,17 @@
 package main
 
 import (
-	"fmt"
-	"time"
+    "fmt"
+    "time"
 )
 
 func main() {
-	for timer := 10; timer >= 0; timer-- {
-		if timer == 0 {
-			fmt.Println("Liftoff!")
-			break
-		}
-		fmt.Println("Countdown", timer)
-		time.Sleep(1 * time.Second)
-	}
+    for timer := 10; timer >= 0; timer-- {
+        if timer == 0 {
+            fmt.Println("Liftoff!")
+            break
+        }
+        fmt.Println("Countdown", timer)
+        time.Sleep(1 * time.Second)
+    }
 }

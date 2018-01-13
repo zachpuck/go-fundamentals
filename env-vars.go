@@ -1,15 +1,15 @@
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 )
 
 func main() {
-	for _, env := range os.Environ() {
-		fmt.Println(env)
-	}
+    for _, env := range os.Environ() {
+        fmt.Println(env)
+    }
 
-	name := os.Getenv("USERNAME")
-	fmt.Println("\nThe current username is", name)
+    name := os.Getenv("USERNAME")
+    fmt.Println("\nThe current username is", name)
 }

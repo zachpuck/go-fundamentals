@@ -1,15 +1,15 @@
 package main
 
 import (
-	"os"
-	"fmt"
+    "os"
+    "fmt"
 )
 
 func main() {
 
-	_, err := os.Open("c:\\temp\\test1.txt")
+    _, err := os.Open("c:\\temp\\test1.txt")
 
-	if err != nil {
-		fmt.Println("Error returned was:", err)
-	}
+    if err != nil {
+        fmt.Println("Error returned was:", err)
+    }
 }
