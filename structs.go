@@ -29,4 +29,6 @@ func main() {
     }
 
     fmt.Printf("milo: %v,\n eva: %v,\n oreo: %v", milo, *eva, oreo)
+
+    fmt.Println("\nMilo has the highest attack rating of", milo.attackRating)
 }
